@@ -1,37 +1,177 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/Safaa-Gouda/Safaa-Gouda.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>module2-solution</title>
+<style>
+        * {
+            box-sizing: border-box;
+          }
+          h1 {
+            margin-bottom: 15px;
+            text-align: center;
+            background-color:lightcoral;
+            color:black;
+          }
+          
+          #Item1, #Item2, #Item3 {
+            float: right;
+            background-color:pink;
+            width: 100px;
+            text-align: center;
+            border: 1px solid black;
+            left: 50px;
+          }
+          
+          p {
+            background-color: none;
+            font-family: Monaco;
+            color: black;
+            padding: 10px;
+            clear: both;
+          }
+          
+          .container {
+            border: 1px solid black;
+            background-color: rgba(224, 127, 184, 0.329);
+            height: 100%;
+            position: relative;
+            margin: 12px;
+          }
+          
+        
+          .row {
+            width: 100%;
+          }
+          
+        
+          @media (min-width: 992px) {
+            .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+              float: left;
+            }
+            .col-lg-1 {
+              width: 8.33%;
+            }
+            .col-lg-2 {
+              width: 16.66%;
+            }
+            .col-lg-3 {
+              width: 25%;
+            }
+            .col-lg-4 {
+              width: 33%;
+            }
+            .col-lg-5 {
+              width: 41.66%;
+            }
+            .col-lg-6 {
+              width: 50%;
+            }
+            .col-lg-7 {
+              width: 58.33%;
+            }
+            .col-lg-8 {
+              width: 66.66%;
+            }
+            .col-lg-9 {
+              width: 74.99%;
+            }
+            .col-lg-10 {
+              width: 83.33%;
+            }
+            .col-lg-11 {
+              width: 91.66%;
+            }
+            .col-lg-12 {
+              width: 100%;
+            }
+          }
+        
+          @media (min-width: 767px) and (max-width: 991px) {
+            .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+              float: left;
+            }
+            .col-md-1 {
+              width: 8.33%;
+            }
+            .col-md-2 {
+              width: 16.66%;
+            }
+            .col-md-3 {
+              width: 25%;
+            }
+            .col-md-4 {
+              width: 33.33%;
+            }
+            .col-md-5 {
+              width: 41.66%;
+            }
+            .col-md-6 {
+              width: 48%;
+            }
+            .col-md-7 {
+              width: 58.33%;
+            }
+            .col-md-8 {
+              width: 66.66%;
+            }
+            .col-md-9 {
+              width: 74.99%;
+            }
+            .col-md-10 {
+              width: 83.33%;
+            }
+            .col-md-11 {
+              width: 91.66%;
+            }
+            .col-md-12 {
+              width: 96%;
+            }
+          }</style>
+</head>
+<body>
+<h1>Our Menu</h1>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<div class="row">
+  <div class="col-lg-4 col-md-6">
+        <div class="container"> 
+        <div id="Item1">Chicken</div>
+            <p>Lorem ipsum dolor sit amet, 
+                    consectetuer adipiscing elit. 
+                    Aenean commodo ligula eget dolor. 
+                    Aenean massa. Cum sociis natoque 
+                    penatibus et magnis dis parturient 
+                    montes, nascetur ridiculus mus. Donec 
+            </p>
+        </div>
+</div>
+  <div class="col-lg-4 col-md-6">
+        <div class="container"> 
+        <div id="Item2">Beef</div>
+            <p>Lorem ipsum dolor sit amet, 
+                    consectetuer adipiscing elit. 
+                    Aenean commodo ligula eget dolor. 
+                    Aenean massa. Cum sociis natoque 
+                    penatibus et magnis dis parturient 
+                    montes, nascetur ridiculus mus. Donec 
+            </p>
+        </div>
+</div>
+  <div class="col-lg-4 col-md-12">
+    <div class="container"> 
+    <div id="Item3">Sushi</div>
+            <p>Lorem ipsum dolor sit amet, 
+                    consectetuer adipiscing elit. 
+                    Aenean commodo ligula eget dolor. 
+                    Aenean massa. Cum sociis natoque 
+                    penatibus et magnis dis parturient 
+                    montes, nascetur ridiculus mus. Donec 
+            </p>
+    </div>
+  </div>
+</div>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Safaa-Gouda/Safaa-Gouda.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html
